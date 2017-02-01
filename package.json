@@ -1,23 +1,22 @@
 {
-  "name": "elixir-typescript",
-  "version": "3.0.2",
-  "description": "Laravel Elixir Typescript compiler wrapper",
+  "name": "coldbox-elixir-typescript",
+  "version": "1.0.0",
+  "description": "ColdBox Elixir TypeScript Extension",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/okaufmann/laravel-elixir-typescript"
+    "url": "https://github.com/coldbox-elixir/extension-typescript"
   },
-  "homepage": "https://github.com/okaufmann/laravel-elixir-typescript",
+  "homepage": "https://github.com/coldbox-elixir/extension-typescript",
   "bugs": {
-    "url": "https://github.com/okaufmann/laravel-elixir-typescript/issues"
+    "url": "https://github.com/coldbox-elixir/extension-typescript/issues"
   },
-  "description": "Laravel Elixir TypeScript Compiler Extension",
   "scripts": {
     "compile": "babel --presets=es2015 -d dist src",
     "prepublish": "npm run compile"
   },
   "keywords": [
-    "laravel",
+    "coldbox",
     "elixir",
     "typescript",
     "gulp"
@@ -26,7 +25,9 @@
   "license": "MIT",
   "dependencies": {
     "gulp-concat": "^2.5.2",
-    "gulp-typescript": "^3.1.4"
+    "gulp-filter": "^5.0.0",
+    "gulp-typescript": "^3.1.4",
+    "typescript": "^2.1.5"
   },
   "devDependencies": {
     "babel-cli": "^6.10.1",

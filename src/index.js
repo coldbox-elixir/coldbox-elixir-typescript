@@ -1,4 +1,4 @@
-import Elixir from 'laravel-elixir';
+import Elixir from 'coldbox-elixir';
 import TypescriptTask from './TypescriptTask';
 import path from "path";
 
