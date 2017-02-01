@@ -6,6 +6,12 @@ ColdBox Elixir TypeScript Integration
 ## Prerequirement
 [ColdBox Elixir 2.0+](https://github.com/coldbox-elixir/core)
 
+For optimal TypeScript development, consider installing typescript globally:
+
+```bash
+npm install -g typescript
+```
+
 ## Installation
 Install through Node.js
 
