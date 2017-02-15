@@ -3,7 +3,7 @@ ColdBox Elixir TypeScript Integration
 
 **(forked from laravel-elixir-typescript by [okaufmann](https://github.com/okaufmann/laravel-elixir-typescript))**
 
-## Prerequirement
+### Prerequisites
 [ColdBox Elixir 2.0+](https://github.com/coldbox-elixir/core)
 
 For optimal TypeScript development, consider installing typescript globally:
@@ -12,14 +12,14 @@ For optimal TypeScript development, consider installing typescript globally:
 npm install -g typescript
 ```
 
-## Installation
+### Installation
 Install through Node.js
 
 ```js
 npm install coldbox-elixir-typescript --save-dev
 ```
 
-## Usage
+### Usage
 A simple [gulp-typescript](https://github.com/ivogabe/gulp-typescript) wrapper for ColdBox Elixir.
 
 Add it to your Elixir-enhanced Gulpfile, like so:
@@ -51,10 +51,10 @@ elixir( function( mix ) {
 } );
 ```
 
-### tsconfig.json
+#### tsconfig.json
 Just put `tsconfig.json` into the root folder (where your gulpfile.js lives) and the plugin will automatically use it.
 
-## Parameters
+### Parameters
 
 Bellow is the list of the available parameters:
 
@@ -62,3 +62,11 @@ Bellow is the list of the available parameters:
 - **output**(optional): Where to place the output file. Default: `includes/js/`
 - **baseDir,**(optional): Where to search your ts files. Default: `null`
 - **options** (optional): Options to forward to the `gulp-typescript` used for compiling. All options under https://github.com/ivogabe/gulp-typescript#options
+
+## Contributions and Bugs
+
+Project tracking for this project can be found at the [Ortus Solutions Jira](https://ortussolutions.atlassian.net/projects/ELIXIR/summary).  Please log all bugs, improvements, and features there.
+
+Pull requests are welcome and encouraged.  Please [check on the Jira page](https://ortussolutions.atlassian.net/projects/ELIXIR/issues/?filter=allissues) before starting any large amount of work so your time isn't wasted.
+
+Brad Wood (@bdw429s) has a [great guide on submitting pull requests.](https://www.ortussolutions.com/blog/submit-your-first-pull-request-to-an-open-source-project)  If you are unsure where to go, in need of help, or have a question, come ask in the #box-products channel on the [CFML Slack](http://cfml-slack.herokuapp.com/).
